@@ -40,6 +40,7 @@ weatherform.addEventListener('submit', (e) => {
         }
         else if (temp < 30 && temp > 20) {
           interactiveMsg.textContent = "Temperature is moderate.."
+          document.body.style.backgroundImage = "url('img/sunnyday.jpg')";
         }
         else {
           interactiveMsg.textContent = "Its super hot outside"
